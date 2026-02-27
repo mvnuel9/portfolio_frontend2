@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="prose prose-invert mx-auto max-w-3xl px-6 py-16">
-	<a href="/#blog" class="text-accent-2 no-underline hover:underline">← Retour aux articles</a>
+	<a href="/blog" class="text-accent-2 no-underline hover:underline">← Retour aux articles</a>
 	<article class="mt-8">
 		<h1>{data.post.title}</h1>
 		{#if data.post.category}
